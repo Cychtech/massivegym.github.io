@@ -1,0 +1,179 @@
+/*
+Author: Wachira Nyaga
+Date:
+File name: styles.css
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1, div, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rules for body and image*/
+body {
+    background-color: #000;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*Style rule for header*/
+header{
+    float:left;
+    width: 25%;
+}
+
+/*Style rule for navigation area*/
+nav{
+    float: right;
+    margin: 5em 3em 0 0;
+    width: 70%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/*Style rule for main content*/
+main{
+    clear: left;
+    background: radial-gradient(#fff,#ccc, #fff);
+    padding: 2%;
+    font-size: 1.25em;
+}
+
+.action{
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+#weights, #cardio, #training, #meals, #chia{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+.Outfits, .machines{
+    width: 29%;
+    float: left;
+    margin: 0 3%
+}
+
+#exercises{
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: linear-gradient(to bottom,#858585, #fff);
+    background-color: #f2f2f2;
+    padding:1% 2%;
+}
+
+#exercises dt {
+    font-weight: bold;
+}
+
+#exercises dd{
+    padding: 0.5% 1% 2% 0;
+}
+
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+/*Style rule for footer content*/
+footer p a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.round{
+    border-radius: 8px;
+}
+
+nav li a:hover{
+    color: #000;
+    background-color: dimgray;
+
+}
+
+/*Styling Table Elements*/
+th{
+    background-color: #ccc;
+}
+
+table, th, td{
+    border: 0.1em solid #000;
+}
+
+table{
+    width: 80%;
+    border-collapse:collapse
+}
+
+td{
+    height: 2em;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+th, td{
+    border: 1px solid #000;
+    padding: 2%
+}
+
+th{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.15em;
+}
+
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+
+
+/*Styling Forms*/
+form {
+    width: auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 2;
+}
+
+
